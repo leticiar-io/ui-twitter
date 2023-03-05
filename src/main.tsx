@@ -65,19 +65,20 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
       <div className="content">
         <main className="timeline">
           <div className="timeline-header">
-            Home 
-
+            Home
             <Sparkle />
           </div>
 
           <form className="new-tweet-form">
             <label htmlFor="tweet">
               <img src="https://github.com/leticiar-io.png" alt="Letícia" />
-              <textarea id="" placeholder="What's happening?"/>
+              <textarea id="" placeholder="What's happening?" />
             </label>
 
             <button type="submit">Tweet</button>
           </form>
+
+          <div className="separator" />
         </main>
       </div>
     </div>
