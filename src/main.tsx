@@ -13,6 +13,7 @@ import {
   FileText,
   User,
   DotsThreeCircle,
+  Sparkle,
 } from "phosphor-react";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
@@ -61,7 +62,24 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
         </button>
       </aside>
 
-      <div className="content">content</div>
+      <div className="content">
+        <main className="timeline">
+          <div className="timeline-header">
+            Home 
+
+            <Sparkle />
+          </div>
+
+          <form className="new-tweet-form">
+            <label htmlFor="tweet">
+              <img src="https://github.com/leticiar-io.png" alt="Letícia" />
+              <textarea id="" placeholder="What's happening?"/>
+            </label>
+
+            <button type="submit">Tweet</button>
+          </form>
+        </main>
+      </div>
     </div>
   </React.StrictMode>
 );
