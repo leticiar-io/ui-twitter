@@ -9,6 +9,7 @@ import {
   User,
   DotsThreeCircle,
   Sparkle,
+  Pencil,
 } from "phosphor-react";
 
 import './Sidebar.css';
@@ -55,7 +56,8 @@ export function Sidebar() {
       </nav>
 
       <button className="new-tweet" type="button">
-        Tweet
+        <Pencil />
+        <span>Tweet</span>
       </button>
     </aside>
   );
