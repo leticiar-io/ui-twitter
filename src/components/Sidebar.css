@@ -52,3 +52,21 @@
    height: 2rem;
  }
  
+ @media (max-width: 780px) {
+  .sidebar {
+    padding: 1.5rem 0.75rem;
+    align-items: center;
+  }
+
+  .main-navigation a span {
+    display: none;
+  }
+
+  .sidebar .new-tweet span {
+    display: none;
+  }
+
+  .sidebar .new-tweet svg {
+    display: block;
+  }
+}

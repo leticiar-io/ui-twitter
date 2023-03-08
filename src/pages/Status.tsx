@@ -6,6 +6,9 @@ import { Tweet } from "../components/Tweet";
 
 import "./Status.css";
 
+
+// Render -> Fluxo na tela
+
 /**
  * Fluxo de renderização:
  *
